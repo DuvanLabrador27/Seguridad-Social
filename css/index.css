@@ -98,6 +98,83 @@ nav #icon{
 	}
 }
 
+div.title-2{
+	text-align: center;
+	font-size: 18px;
+	text-transform: uppercase;
+	margin-top:30px;
+	
+}
+.container-1{
+	
+	width: 90%;
+	max-width: 900px;
+	margin: auto;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.tabla{
+	
+	width: 33%;
+	height: 400px;
+	margin: auto;
+	border:1px solid #343759;
+	border-radius: 4px;
+	box-shadow: 0px 0px 4px 0px #343759;
+	padding: 60px;
+	text-align: center;
+	flex-grow: 1;	
+	color: #343759;
+}
+
+.tabla>h2{
+
+	font-size: 30px;
+	margin-bottom: 35px;
+}
+.tabla img{
+	width: 64px;
+	margin-bottom:35px;
+}
+.tabla>h3{
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.tabla >p{
+	display: block;
+	margin-bottom: 20px;
+}
+
+.boton{
+	display: inline-block;
+	width: 150px;
+	padding: 12px;
+	background: #a5f059;
+	text-decoration: none;
+	color: #343759;
+	border-radius: 100px;
+	text-align: center;
+	font-size: 14;
+	font-weight: 600;
+	margin: auto;
+}
+
+.tabla:hover{
+	background: #343759;
+	color: #f1f1f2;
+	transition: 0.5s all;
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+
+
+
+
+
 
 
 
