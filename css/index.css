@@ -287,12 +287,10 @@ margin: 10px 0;
 	background: #151515;
 	padding-left: 10px;
 	border:1px solid #222222;
+	color:#d9d9d9;
 
 }
-.right form input:focus,
-.right form textarea:focus{
-	outline-color: #3498db;
-}
+
 .right form input{
 	height: 35px;
 
